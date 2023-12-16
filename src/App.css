@@ -1,3 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333; /* Set your desired background color */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.navbar-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .pdf-generator-container {
   max-width: 400px;
   margin: 50px auto;
@@ -41,7 +61,7 @@
   }
 }
 
-.btn-div{
+.btn-div {
   display: flex;
   justify-content: center;
 }
