@@ -3,16 +3,22 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #333; /* Set your desired background color */
+  background-color: white;
   color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-icon {
   cursor: pointer;
   font-size: 20px;
 }
-
+.navbar-icon img {
+  max-width: 5%;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-icon img {
+    max-width: 10%;
+  }
+}
 .navbar-title {
   font-size: 18px;
   font-weight: bold;
